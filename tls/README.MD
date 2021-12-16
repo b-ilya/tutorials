@@ -1,5 +1,5 @@
 # TLS setup commands
-## generate-own-ca generate-server-cert generate-client-cert
+## generate-own-ca.sh generate-server-cert.sh generate-client-cert.sh
 #### source: https://docs.docker.com/engine/security/protect-access/
 Generate self-signed CA key and certificate
 ```

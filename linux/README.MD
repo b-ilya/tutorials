@@ -1,5 +1,5 @@
 # linux general tips
-## ls-colors-fix
+## ls-colors-fix.sh
 #### source: https://linuxhint.com/ls_colors_bash/
 Fix color displayed for 'other_writable' directories by `ls` command./
 `ow=34;42` > `ow=30;42;01`
