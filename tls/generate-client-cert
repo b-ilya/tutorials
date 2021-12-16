@@ -1,3 +1,4 @@
+#!/bin/bash
 openssl genrsa -out client-key.pem 4096
 openssl req -subj '/CN=client' -new -key client-key.pem -out client-request.csr
 echo extendedKeyUsage = clientAuth > extfile.cnf
